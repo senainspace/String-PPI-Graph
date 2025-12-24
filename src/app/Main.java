@@ -4,7 +4,12 @@ import utils.Menu;
 
 public class Main {
     public static void main(String[] args) {
-        Menu appMenu = new Menu();
-        appMenu.start();
+        try {
+            Menu appMenu = new Menu();
+            appMenu.start();
+        } catch (Exception e) {
+            System.out.println("FATAL ERROR: The application crashed unexpectedly.");
+            e.printStackTrace();
+        }
     }
 }
