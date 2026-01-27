@@ -63,27 +63,24 @@ The application provides the following functionalities through a menu-driven int
 
 ---
 
-## Project Structure
+### 📂 Project Structure
 
+```text
 string-ppi-graph
 │
 ├── src/
 │   ├── app/
 │   │   └── Main.java
-│   │
 │   ├── graph/
 │   │   ├── Graph.java
 │   │   ├── Edge.java
 │   │   └── Vertex.java
-│   │
 │   ├── algorithms/
 │   │   ├── BFS.java
 │   │   ├── DFS.java
 │   │   └── MostConfidentPath.java
-│   │
 │   ├── metrics/
 │   │   └── GraphMetrics.java
-│   │
 │   └── utils/
 │       ├── DataLoader.java
 │       └── Menu.java
