@@ -62,6 +62,22 @@ The application provides the following functionalities through a menu-driven int
 - Perform Depth-First Search (DFS)
 
 ---
+## Technologies Used
+
+- Java
+- Object-Oriented Programming (OOP)
+- Graph Data Structures
+- Breadth-First Search (BFS)
+- Depth-First Search (DFS)
+
+---
+
+## How to Run
+
+1. Place the dataset files inside the `data/` directory.
+2. Compile the Java source files.
+3. Run the `Main` class.
+4. Follow the menu instructions to load and analyze the graph.
 
 ### 📂 Project Structure
 
@@ -91,19 +107,3 @@ string-ppi-graph
 
 ---
 
-## Technologies Used
-
-- Java
-- Object-Oriented Programming (OOP)
-- Graph Data Structures
-- Breadth-First Search (BFS)
-- Depth-First Search (DFS)
-
----
-
-## How to Run
-
-1. Place the dataset files inside the `data/` directory.
-2. Compile the Java source files.
-3. Run the `Main` class.
-4. Follow the menu instructions to load and analyze the graph.
